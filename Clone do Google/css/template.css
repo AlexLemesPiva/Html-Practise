@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+}
+
+.menu {
+    padding: 15px;
+    display: flex;
+    height: 30px;
+    width: 170px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgperfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: url("../image/le.jpg");
+    background-size: cover;
+}
+
+.gmail, .imagenmenu{
+    display: flex;
+    color: #40413e;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a :hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logogoogle{
+    display: flex;
+    background-image: url("../image/google.png");
+    width: 350px;
+    height: 175px;
+    background-size: cover;
+}
+
+.buscadorgoogle {
+    display: flex;
+    width: 650px;
+    height: 45px;
+    border-radius: 22px;
+    border: 1px solid rgb(172, 172, 172);
+}
+
+.botoespesquisa {
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.estoucomsorte{
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+
+}
+
+.pesquisagoogle{
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+}
+
+.botaogoogle{
+    text-decoration: none;
+    color: black;
+}
+
+.pesquisagoogle:hover{
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px rgb(231, 231, 231);
+}
+
+.estoucomsorte:hover{
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px rgb(231, 231, 231);
+}
+
+.buscadorgoogle:hover{
+    box-shadow: 1px 1px 1px 1px rgb(192, 190, 190);
+}
+
+.aclaracaogoogle{
+    margin-top: 5px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h3 {
+    display: flex;
+    font-size: 15px;
+    margin-left: 25px;
+    color: rgb(109, 109, 109);
+    font-weight: lighter;
+    text-shadow: 1px #40413e;
+}
+
+.fotdiv2{
+    display: flex;
+    justify-content: space-between;
+}
+.textodiv1{
+    display: flex;
+    flex: 1;
+}
+.textodiv2{
+    display: flex;
+    flex: 2;
+    justify-content: end;
+    margin-right: 25px;
+}
+.fotdiv1, .fotdiv2{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    background-color: rgb(238, 234, 234);
+}
+
+.fotdiv2 {
+    border-top: 1px solid rgb(184, 183, 183);
+}

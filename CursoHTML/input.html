@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Solicitud Ingreso a Atletas de Mega</title>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="fraser.mp4" type="video/mp4">
+      </video>
+    <header>
+        <h2>Solicitud de ingreso a Atletas Mega</h2></header>
+    <p>A continuación responda el siguiente formulário con algunas informaciones</p>
+    </header>
+    <div>
+        <h2>Información del Atleta</h2>
+        <form action="paginas/registro.html" method="POST">
+            <h4>Nombre del Atleta</h4>
+            <input type="text" value="Nombre" placeholder="Nombre" required />
+
+            <h4>Edad del Atleta</h4>
+            <input type="number" min="18" max="100" value="Edad" placeholder="Edad" required />
+
+            <h4>Sexo</h4>
+            <input type="radio" name="sexo"/>
+            Masculino
+            <input type="radio" name="sexo"/>
+            Femenino
+
+            <h4>Tiempo que practica Crossfit</h4>
+            <input type="radio" name="deporte"/> 0 a 6 meses</br>
+            <input type="radio" name="deporte"/> 6 meses a 1 año</br>
+            <input type="radio" name="deporte"/> 1 a 2 años</br>
+            <input type="radio" name="deporte"/> 2+ años
+
+            <h4>Qué objetivos querés alcanzar?</h4>
+            <input type="checkbox" name="obj"/> Mejorar fuerza
+            <input type="checkbox" name="obj"/> Mejorar cardio
+            <input type="checkbox" name="obj"/> Aprender nuevas técnicas <br/>
+            <input type="checkbox" name="obj"/> Participar de mi primer competencia
+            <input type="checkbox" name="obj"/> Entrenar con un grupo más avanzado<br/>
+            <input type="checkbox" name="obj"/> Mejorar mi estética
+            <input type="checkbox" name="obj"/> No tengo un objetivo claro
+
+            <h4>Escribe lo que quieras</h4>
+            <textarea maxlength="200" class="texto"></textarea>
+            <br/>
+            <br/>
+
+            <input type="submit" value="Enviar Solicitud">
+            
+
+        </form>
+    </div>
+</body>
+</html>
